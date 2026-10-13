@@ -1,6 +1,4 @@
-HELP.md
-
-# Maven build output
+# Maven
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -11,24 +9,23 @@ target/
 .env.*
 !.env.example
 
-# Spring Boot logs
+# Logs
 *.log
 logs/
 
-# Spring Tool Suite
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-# IntelliJ IDEA
+# IDE files
 .idea/
 *.iws
 *.iml
 *.ipr
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.vscode/
+.apt_generated
 
 # NetBeans
 /nbproject/private/
@@ -39,9 +36,6 @@ logs/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-# VS Code
-.vscode/
 
 # Operating system files
 .DS_Store
